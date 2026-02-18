@@ -1,6 +1,8 @@
 .main {
   --column-count: 1;
+
   display: grid;
+  justify-content: center;
   grid-template-columns: repeat(var(--column-count), $card-width);
   grid-gap: 46px 48px;
 
@@ -8,7 +10,7 @@
 }
 
 @media (min-width: 488px) {
-  .main{
+  .main {
     --column-count: 2;
   }
 }
@@ -24,4 +26,3 @@
     --column-count: 4;
   }
 }
-
