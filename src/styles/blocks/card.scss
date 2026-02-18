@@ -7,10 +7,10 @@
 
   &:hover {
     transform: scale(1.2);
-  }
 
-  &:hover .card__product-name {
-    color: $focus-text-color;
+    &__product-name {
+      color: $focus-text-color;
+    }
   }
 
   &__image {
